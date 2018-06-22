@@ -70,6 +70,8 @@ h1 {
 .boite {
   display: flex;
   justify-content: space-between;
+  width: auto;
+  overflow-x: auto;
 }
 
 .tags {
@@ -104,7 +106,7 @@ h1 {
 
 .contenu {
   /*border: 3px dashed greenyellow;*/
-  padding: 28px 38px;
+  /*padding: 28px 38px;*/
   height: 450px;
   display: flex;
   align-items: center;
@@ -136,6 +138,7 @@ h1 {
   color: white;
   opacity: 0.85;
   padding: 38px;
+  /* margin-top: -30px;*/
 }
 
 .test {
@@ -145,6 +148,7 @@ h1 {
   align-items: center;
   justify-content: center;
   height: auto;
+  margin: 28px 38px;
 }
 
 .choix {
@@ -185,8 +189,9 @@ option {
 .albums {
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 330px;
   align-items: center;
+  padding: 0px 38px;
 }
 
 .teste {
@@ -198,11 +203,44 @@ option {
 
 .boites {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: space-around;
 }
 
 .boites p {
   width: 174px;
   height: auto;
+}
+
+@media (max-width: 600px) {
+  .choix {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .test {
+    margin: auto;
+  }
+  .subtitle {
+    font-weight: 400;
+    font-size: 22px;
+  }
+  .footer {
+    padding: auto;
+  }
+
+  .slogan {
+    left: 0;
+    top: 95px;
+    width: auto;
+    right: 0;
+    padding: auto;
+  }
+}
+@media (max-width: 400px) {
+  .palabras {
+    width: auto;
+    right: 0;
+    padding: auto;
+  }
 }

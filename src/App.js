@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./css/App.css";
 import axios from "axios";
 import img from "./images/jesse_darland.jpg";
-import fond from "./images/federico_beccari.jpg";
 
 class App extends Component {
   state = {
@@ -150,12 +149,12 @@ class App extends Component {
           </div>
           <div className="contenu boite">
             {this.state.data.map((element, index) => {
-              const name = element.name;
+              /* const name = element.name;*/
               return (
                 <div key={index} className="boites">
                   {element.similar.artist.map((el, i) => {
                     return (
-                      <div key={i} className="">
+                      <div key={i} className="albums">
                         <img
                           src={el.image[2]["#text"]}
                           alt={i}
@@ -172,7 +171,8 @@ class App extends Component {
         </div>
 
         <div className="footer">
-          <p>Create by Alex MJ</p>
+          <p>Auteur: MJ</p>
+          <p>Date de cr&eacute;ation: 22/06/2018</p>
         </div>
       </div>
     );
