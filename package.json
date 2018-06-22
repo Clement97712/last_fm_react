@@ -1,8 +1,8 @@
 {
   "name": "last_fm",
+  "homepage": "https://Clement97712.github.io/last_fm",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Clement97712.github.io/last_fm",
   "dependencies": {
     "axios": "^0.17.1",
     "bootstrap": "^4.0.0",
