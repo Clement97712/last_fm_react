@@ -70,6 +70,8 @@ h1 {
 .boite {
   display: flex;
   justify-content: space-between;
+  width:100%;
+  overflow-x: auto;
 }
 
 .tags {
@@ -130,7 +132,7 @@ h1 {
 }
 
 .footer {
-  height: 200px;
+  height: 100px;
   width: auto;
   background-image: url("../images/fondAbout.png");
   color: white;
