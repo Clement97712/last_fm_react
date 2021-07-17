@@ -1,0 +1,7 @@
+Package        Current   Wanted  Latest  Location
+axios           0.18.1   0.18.1  0.21.1  last_fm
+bootstrap        4.3.1    4.6.0   5.0.2  last_fm
+gh-pages         1.2.0    1.2.0   3.2.3  last_fm
+react           16.9.0  16.14.0  17.0.2  last_fm
+react-dom       16.9.0  16.14.0  17.0.2  last_fm
+react-scripts    1.1.4    1.1.4   4.0.3  last_fm
